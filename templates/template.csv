@@ -1,0 +1,2 @@
+basedn=OU=OU,DC=domain,DC=com
+username;name;surname;password;[groups,seperated,by,comma]
