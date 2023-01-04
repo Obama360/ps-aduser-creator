@@ -75,3 +75,4 @@ foreach($line in Get-Content (Read-Host "List-file path: ") -Encoding UTF8) {
         }
     }
 }
+pause
