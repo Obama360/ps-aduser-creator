@@ -4,7 +4,7 @@
 
 # LIST TEMPLATE:
 # basedn=OU=ou,DC=domain,DC=com
-# username,name,password,[groups,seperated,by,comma]
+# username;name;surname;password;[groups,seperated,by,comma]
 # ...
 
 $splitterBasedn = ","
