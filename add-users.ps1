@@ -59,6 +59,7 @@ foreach($line in Get-Content (Read-Host "List-file path: ") -Encoding UTF8) {
                 }
             catch {
                 Write-Error "Failed to create user $principalName! ($_.Exception)"
+                pause
             }
 
             # Add user to groups
@@ -69,6 +70,7 @@ foreach($line in Get-Content (Read-Host "List-file path: ") -Encoding UTF8) {
                         echo "Added $username to group $group"
                     }
                         catch {Write-Error "Failed to add $username to group $group! ($_.Exception)"}
+                        pause
                 }
             }
             echo "`n"
